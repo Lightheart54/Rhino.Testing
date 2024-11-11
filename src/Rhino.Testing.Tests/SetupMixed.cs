@@ -7,7 +7,7 @@ namespace Rhino.Testing.Tests
     public class SetupFromAttributeTest : RhinoTestFixture
     {
         [Test]
-        public void Test() => Assert.True(true);
+        public void Test() => Assert.That(true);
     }
 
     [SetUpFixture]
@@ -21,6 +21,6 @@ namespace Rhino.Testing.Tests
     public class SetupFromFixtureTest : RhinoTestFixture
     {
         [Test]
-        public void Test() => Assert.True(true);
+        public void Test() => Assert.That(true);
     }
 }
